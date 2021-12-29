@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import BackgroundImgMobile from "../../assets/destination/background-destination-mobile.jpg";
 import MoonImage from "../../assets/destination/image-moon.png";
-import styles from "../../styles/Destination.module.css";
+
 function mobile_destination_a() {
   return (
     <>
