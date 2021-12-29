@@ -124,31 +124,36 @@
 }
 .home__title1 {
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 1em;
-  padding-top: 3.125rem;
+  font-size: 18px;
+  padding-top: 45px;
+  letter-spacing: 2px;
 }
 .home__title2 {
   font-family: "Bellefair", serif;
-  font-size: 5em;
-  padding-top: 2.125rem;
+  font-size: 57px;
+  padding-top: 28px;
 }
 .home__description {
   font-family: "Barlow", sans-serif;
   font-size: 0.9375em;
-  padding-top: 3.125rem;
   text-align: center;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 35px;
+  line-height: 1.6;
 }
 .home__explorebtn {
   font-family: "Bellefair", serif;
   background: white;
   color: black;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 45px;
+  letter-spacing: 2px;
 }
 
 @media (max-width: 600px) {
