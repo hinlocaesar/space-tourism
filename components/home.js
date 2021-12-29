@@ -23,7 +23,7 @@ function home() {
           experience!
         </div>
 
-        <div className={styles.explorebtn}> Explore</div>
+        <div className={styles.home__explorebtn}> Explore</div>
       </div>
     </>
   );
