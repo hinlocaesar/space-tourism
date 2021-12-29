@@ -1,12 +1,12 @@
 // components/layout.js
 
 import Navbar from "./navbar";
-import Home from "./home";
+import MobileHome from "./mobile/mobile_home";
 export default function Layout({ children }) {
   return (
     <>
       <Navbar />
-      <Home />
+      <MobileHome />
       <main>{children}</main>
     </>
   );
