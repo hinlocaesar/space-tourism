@@ -124,22 +124,22 @@
 }
 .home__title1 {
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 18px;
-  padding-top: 45px;
-  letter-spacing: 2px;
+  font-size: 1.125em;
+  padding-top: 2.813rem;
+  letter-spacing: 0.125rem;
 }
 .home__title2 {
   font-family: "Bellefair", serif;
-  font-size: 57px;
-  padding-top: 28px;
+  font-size: 3.5625em;
+  padding-top: 1.75rem;
 }
 .home__description {
   font-family: "Barlow", sans-serif;
   font-size: 0.9375em;
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 35px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 2.188;
   line-height: 1.6;
 }
 .home__explorebtn {
@@ -147,13 +147,13 @@
   background: white;
   color: black;
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 9.375rem;
+  height: 9.375rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 45px;
-  letter-spacing: 2px;
+  margin-top: 2.813rem;
+  letter-spacing: 0.125rem;
 }
 
 @media (max-width: 600px) {
