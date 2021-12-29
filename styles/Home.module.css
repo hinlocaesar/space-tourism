@@ -108,6 +108,14 @@
   margin-left: 0.5rem;
 }
 
+.backgroundImage {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  border-style: dotted;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
