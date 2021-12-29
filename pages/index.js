@@ -12,7 +12,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Image src={BackgroundImgMobile} alt="Picture of the author" />
+      <Image
+        src={BackgroundImgMobile}
+        alt="Picture of the author"
+        layout="responsive"
+      />
 
       <main className={styles.main}>
         <h1 className={styles.title}>
