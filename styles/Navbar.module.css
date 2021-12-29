@@ -1,0 +1,8 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  margin: 0px;
+  align-items: center;
+  outline: 1px dashed red;
+}
