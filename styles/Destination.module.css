@@ -41,7 +41,7 @@
   text-align: center;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-  padding-top: 2.188;
+  padding-top: 1.25rem;
   line-height: 1.6;
 }
 .explorebtn {
@@ -67,6 +67,27 @@
 
 .dest_menu_item {
   padding: 15px;
+}
+
+.dest_line {
+  width: 90%;
+  height: 1px;
+  background: grey;
+  margin-top: 2.188rem;
+}
+
+.dest_detail_title {
+  font-family: "Barlow Condensed", sans-serif;
+  padding-top: 2.188rem;
+}
+
+.dest_detail_data {
+  font-family: "Bellefair", serif;
+  font-size: 2em;
+  padding-top: 1rem;
+}
+.dest_detail_data:last-child {
+  padding-bottom: 3.5rem;
 }
 
 @media (max-width: 600px) {

@@ -139,7 +139,7 @@
   text-align: center;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-  padding-top: 2.188;
+  padding-top: 2.188rem;
   line-height: 1.6;
 }
 .home__explorebtn {
@@ -154,6 +154,8 @@
   justify-content: center;
   margin-top: 2.813rem;
   letter-spacing: 0.125rem;
+
+  margin-bottom: 2.813rem;
 }
 
 @media (max-width: 600px) {

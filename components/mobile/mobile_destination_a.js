@@ -44,14 +44,12 @@ function mobile_destination_a() {
             11 landing sites.
           </div>
 
-          <div className={styles.description}>
-            See our planet as you’ve never seen it before. A perfect relaxing
-            trip away to help regain perspective and come back refreshed. While
-            you’re there, take in some history by visiting the Luna 2 and Apollo
-            11 landing sites.
-          </div>
+          <div className={styles.dest_line}> </div>
 
-          <div className={styles.explorebtn}> EXPLORE</div>
+          <div className={styles.dest_detail_title}>AVG. DISTANCE</div>
+          <div className={styles.dest_detail_data}>225 MIL. KM</div>
+          <div className={styles.dest_detail_title}>EST. TRAVEL TIME</div>
+          <div className={styles.dest_detail_data}>9 MONTHS</div>
         </div>
       </div>
     </>
