@@ -2,10 +2,20 @@ import React from "react";
 import Image from "next/image";
 import MoonImage from "../../assets/destination/image-moon.png";
 import styles from "../../styles/Destination.module.css";
+import BackgroundImgMobileDest from "../../assets/destination/background-destination-mobile.jpg";
 
 function mobile_destination_a() {
   return (
     <>
+      <Image
+        className={styles.backgroundImage}
+        src={BackgroundImgMobileDest}
+        alt="Picture of the author"
+        layout="fill"
+        objectFit="cover"
+        quality={100}
+      />
+
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.title1}>01 Pick your destination</div>
@@ -27,6 +37,13 @@ function mobile_destination_a() {
           </div>
 
           <div className={styles.title2}> MOON</div>
+          <div className={styles.description}>
+            See our planet as you’ve never seen it before. A perfect relaxing
+            trip away to help regain perspective and come back refreshed. While
+            you’re there, take in some history by visiting the Luna 2 and Apollo
+            11 landing sites.
+          </div>
+
           <div className={styles.description}>
             See our planet as you’ve never seen it before. A perfect relaxing
             trip away to help regain perspective and come back refreshed. While
