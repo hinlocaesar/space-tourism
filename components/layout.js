@@ -7,21 +7,26 @@ import homestyles from "../styles/Home.module.css";
 
 import BackgroundImgMobileDest from "../assets/destination/background-destination-mobile.jpg";
 import deststyles from "../styles/Destination.module.css";
+
+import basetyle from "../styles/Layout.module.css";
+
 export default function Layout({ children }) {
   return (
     <>
-      <Image
-        className={deststyles.backgroundImage}
-        src={BackgroundImgMobileDest}
-        alt="Picture of the author"
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-      />
+      <div className={basetyle.configlayout}>
+        <Image
+          className={deststyles.backgroundImage}
+          src={BackgroundImgMobileDest}
+          alt="Picture of the author"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+        />
 
-      <Navbar />
+        <Navbar />
 
-      <main>{children}</main>
+        <main>{children}</main>
+      </div>
     </>
   );
 }

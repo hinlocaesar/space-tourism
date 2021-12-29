@@ -1,0 +1,5 @@
+.configlayout {
+  background-color: blue;
+  position: relative;
+  z-index: -2;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import MoonImage from "../../assets/destination/image-moon.png";
+import styles from "../../styles/Destination.module.css";
 
 function mobile_destination_a() {
   return (
@@ -32,6 +33,7 @@ function mobile_destination_a() {
             you’re there, take in some history by visiting the Luna 2 and Apollo
             11 landing sites.
           </div>
+
           <div className={styles.explorebtn}> EXPLORE</div>
         </div>
       </div>
