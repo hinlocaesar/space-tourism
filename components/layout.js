@@ -1,13 +1,23 @@
 // components/layout.js
 
 import Navbar from "./navbar";
-import MobileHome from "./mobile/mobile_home";
-import MobileDestA from "./mobile/mobile_destination_a";
+import Image from "next/image";
+import BackgroundImgMobile from "../assets/home/background-home-mobile.jpg";
+import styles from "../styles/Home.module.css";
+
 export default function Layout({ children }) {
   return (
     <>
+      <Image
+        className={styles.backgroundImage}
+        src={BackgroundImgMobile}
+        alt="Picture of the author"
+        layout="fill"
+        objectFit="cover"
+        quality={100}
+      />
       <Navbar />
-      <MobileDestA />
+
       <main>{children}</main>
     </>
   );
