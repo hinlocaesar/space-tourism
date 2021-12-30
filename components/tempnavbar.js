@@ -15,8 +15,8 @@ function tempnavbar() {
         </Link>
       </li>
       <li>
-        <Link href="/blog/hello-world">
-          <a>Blog Post</a>
+        <Link href="/destination_a">
+          <a>Destination A</a>
         </Link>
       </li>
     </ul>
