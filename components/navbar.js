@@ -9,7 +9,7 @@ function navbar() {
     <>
       <div className={styles.navbar}>
         <Image src={Logo} alt="Logo" />
-        <Image src={Hamburger} alt="Hamburger" q />
+        <Image src={Hamburger} alt="Hamburger" />
       </div>
     </>
   );

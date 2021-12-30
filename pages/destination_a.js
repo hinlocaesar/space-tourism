@@ -18,7 +18,7 @@ export default function Home() {
         objectFit="cover"
         quality={100}
       />
-      <TempNavBar />
+
       <NavBar />
       <main>
         <div className={styles.home__content}>
@@ -52,6 +52,7 @@ export default function Home() {
           <div className={styles.home__explorebtn}> EXPLORE</div>
         </div>
       </main>
+      <TempNavBar />
     </div>
   );
 }
