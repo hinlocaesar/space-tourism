@@ -3,6 +3,7 @@ import Image from "next/image";
 import Logo from "../assets/shared/logo.svg";
 import Hamburger from "../assets/shared/icon-hamburger.svg";
 import styles from "../styles/Navbar.module.css";
+import Link from "next/link";
 function navbar() {
   return (
     <>
