@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import commonstyles from "../styles/Common.module.css";
 import styles from "../styles/Destination.module.css";
 
 import BackgroundImgMobileMain from "../assets/home/background-home-mobile.jpg";
@@ -21,8 +22,8 @@ export default function Home() {
 
       <NavBar />
       <main>
-        <div className={styles.home__content}>
-          <div className={styles.home__title1}>01 Pick your destination</div>
+        <div className={commonstyles.content}>
+          <div className={commonstyles.title1}>01 PICK YOUR DESTINATION</div>
 
           <div className={styles.img}>
             <Image
@@ -39,8 +40,8 @@ export default function Home() {
             <div className={styles.dest_menu_item}>EUROPA</div>
             <div className={styles.dest_menu_item}>TITAN</div>
           </div>
-          <div className={styles.home__title1}>MOON</div>
-          <div className={styles.home__description}>
+          <div className={styles.big_font}>MOON</div>
+          <div className={commonstyles.description}>
             See our planet as you’ve never seen it before. A perfect relaxing
             trip away to help regain perspective and come back refreshed. While
             you’re there, take in some history by visiting the Luna 2 and Apollo

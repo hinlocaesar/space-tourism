@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import commonstyles from "../styles/Common.module.css";
 import styles from "../styles/Home.module.css";
 
 import BackgroundImgMobileMain from "../assets/home/background-home-mobile.jpg";
@@ -16,7 +17,7 @@ export default function Home() {
       </Head>
       <main>
         <Image
-          className={styles.backgroundImage}
+          className={commonstyles.backgroundImage}
           src={BackgroundImgMobileMain}
           alt="Picture of the author"
           layout="fill"
@@ -25,10 +26,10 @@ export default function Home() {
         />
 
         <NavBar />
-        <div className={styles.home__content}>
-          <div className={styles.home__title1}>So, you want to travel to</div>
-          <div className={styles.home__title2}> SPACE</div>
-          <div className={styles.home__description}>
+        <div className={commonstyles.content}>
+          <div className={commonstyles.title1}>So, you want to travel to</div>
+          <div className={commonstyles.title2}> SPACE</div>
+          <div className={commonstyles.description}>
             Let’s face it. if you want to go to space, you might as well
             genuinely go to outer space and not hover kind of on the edge of it.
             Well sit back, and relax because we’ll give you a truly out of this
