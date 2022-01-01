@@ -130,5 +130,8 @@ table {
 
 * {
   z-index: 1;
+}
+
+html {
   position: relative;
 }

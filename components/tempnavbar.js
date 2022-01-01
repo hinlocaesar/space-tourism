@@ -16,6 +16,12 @@ function tempnavbar() {
           <a>Destination A</a>
         </Link>
       </div>
+
+      <div className={styles.navbar}>
+        <Link href="/crew_a">
+          <a>Crew A</a>
+        </Link>
+      </div>
     </>
   );
 }
