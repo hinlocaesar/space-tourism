@@ -17,7 +17,6 @@ export default function Home() {
       </Head>
       <main>
         <Image
-          className={commonstyles.backgroundImage}
           src={BackgroundImgMobileMain}
           alt="Picture of the author"
           layout="fill"

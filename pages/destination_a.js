@@ -3,7 +3,7 @@ import Image from "next/image";
 import commonstyles from "../styles/Common.module.css";
 import styles from "../styles/Destination.module.css";
 
-import BackgroundImgMobileMain from "../assets/home/background-home-mobile.jpg";
+import BackgroundImgMobileMain from "../assets/destination/background-destination-mobile.jpg";
 import MoonImage from "../assets/destination/image-moon.png";
 import NavBar from "../components/navbar";
 import TempNavBar from "../components/tempnavbar";
@@ -18,7 +18,6 @@ export default function Home() {
       </Head>
       <main>
         <Image
-          className={commonstyles.backgroundImage}
           src={BackgroundImgMobileMain}
           alt="Picture of the author"
           layout="fill"
@@ -52,10 +51,10 @@ export default function Home() {
           </div>
           <div className={styles.dest_line}> </div>
 
-          <div className={styles.big_font}>Avg. distance</div>
-          <div>384,400 km </div>
-          <div className={styles.big_font}>Est. travel time</div>
-          <div>3 days</div>
+          <div className={commonstyles.title1}>Avg. distance</div>
+          <div className={styles.small_font}>384,400 km </div>
+          <div className={commonstyles.title1}>Est. travel time</div>
+          <div className={styles.small_font}>3 days</div>
         </div>
       </main>
       <TempNavBar />
