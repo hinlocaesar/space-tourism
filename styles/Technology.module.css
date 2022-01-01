@@ -1,0 +1,46 @@
+.imgWrapper {
+  width: 100%;
+  height: auto;
+  padding-top: 2rem;
+}
+
+.line {
+  width: 90%;
+  height: 1px;
+  background: grey;
+  margin-top: 0rem;
+}
+
+.small_font1 {
+  font-family: "Bellefair", sans-serif;
+  font-size: 1em;
+  padding-top: 1.5rem;
+  text-transform: uppercase;
+}
+
+.small_font2 {
+  font-family: "Bellefair", sans-serif;
+  font-size: 1.625em;
+  padding-top: 0.5rem;
+  text-transform: uppercase;
+}
+
+.dest_menu {
+  font-family: "Barlow Condensed", sans-serif;
+  display: flex;
+  justify-content: space-between;
+
+  width: 20%;
+  padding-top: 1rem;
+}
+
+.dest_menu_item {
+  width: 10px;
+  height: 10px;
+  background: gray;
+  border-radius: 50%;
+}
+
+.dest_menu_item:first-child {
+  background: white;
+}
