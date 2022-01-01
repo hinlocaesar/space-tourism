@@ -4,9 +4,10 @@
 }
 
 .backgroundImage {
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
   z-index: -1;
 }
 
