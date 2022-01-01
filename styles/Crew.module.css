@@ -24,3 +24,23 @@
   padding-top: 0.5rem;
   text-transform: uppercase;
 }
+
+.dest_menu {
+  font-family: "Barlow Condensed", sans-serif;
+  display: flex;
+  justify-content: space-between;
+
+  width: 20%;
+  padding-top: 1rem;
+}
+
+.dest_menu_item {
+  width: 10px;
+  height: 10px;
+  background: gray;
+  border-radius: 50%;
+}
+
+.dest_menu_item:first-child {
+  background: white;
+}

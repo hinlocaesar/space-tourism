@@ -3,7 +3,7 @@ import Image from "next/image";
 import commonstyles from "../styles/Common.module.css";
 import styles from "../styles/Crew.module.css";
 
-import BackgroundImgMobileMain from "../assets/destination/background-destination-mobile.jpg";
+import BackgroundImgMobileMain from "../assets/crew/background-crew-mobile.jpg";
 import CrewImage from "../assets/crew/image-douglas-hurley.png";
 import NavBar from "../components/navbar";
 import TempNavBar from "../components/tempnavbar";
@@ -34,6 +34,14 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.line}> </div>
+
+          <div className={styles.dest_menu}>
+            <div className={styles.dest_menu_item}></div>
+            <div className={styles.dest_menu_item}></div>
+            <div className={styles.dest_menu_item}></div>
+            <div className={styles.dest_menu_item}></div>
+          </div>
+
           <div className={styles.small_font1}>Commander</div>
           <div className={styles.small_font2}> Douglas Hurley</div>
 

@@ -4,6 +4,9 @@
   justify-content: center;
   color: white;
 }
+.dest_menu_item {
+  padding: 15px;
+}
 
 .big_font {
   font-family: "Bellefair", sans-serif;
@@ -24,8 +27,4 @@
 
 .img {
   padding-top: 2.188rem;
-}
-
-.dest_menu_item {
-  padding: 15px;
 }
