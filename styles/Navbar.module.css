@@ -2,18 +2,16 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
   margin: 0px;
   align-items: center;
   z-index: 1;
-  outline: red 3px solid;
+  padding: 20px;
 }
 
 /*Hide tablet and desktop nav*/
 .isTablet {
   visibility: hidden;
   position: absolute;
- 
 }
 
 /**************Tablet view**********/
@@ -21,11 +19,12 @@
   .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
     margin: 0px;
     align-items: center;
     z-index: 1;
     font-family: "Barlow Condensed", sans-serif;
+    padding: 0px;
+    padding-left: 20px;
   }
 
   .isMobile {
@@ -40,7 +39,6 @@
   .bigNav {
     display: flex;
     justify-content: space-around;
-    outline: solid 2px red;
     background-color: rgb(32, 32, 32);
     color: white;
   }
