@@ -39,7 +39,7 @@
   .bigNav {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(32, 32, 32, 0.9);
     color: white;
   }
 

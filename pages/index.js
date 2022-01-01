@@ -4,6 +4,7 @@ import commonstyles from "../styles/Common.module.css";
 import styles from "../styles/Home.module.css";
 
 import BackgroundImgMobileMain from "../assets/home/background-home-mobile.jpg";
+import BackgroundImgMobileTablet from "../assets/destination/image-titan.png";
 import NavBar from "../components/navbar";
 import TempNavBar from "../components/tempnavbar";
 
@@ -16,13 +17,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Image
-          src={BackgroundImgMobileMain}
-          alt="Picture of the author"
-          layout="fill"
-          objectFit="cover"
-          quality={100}
-        />
+        <div className={styles.applyBgSwitchMobile}>
+          <Image
+            className={styles.applyBgSwitchMobile}
+            src={BackgroundImgMobileMain}
+            alt="Picture of the author"
+            layout="fill"
+            objectFit="cover"
+            quality={100}
+          />
+        </div>
 
         <NavBar />
         <div className={commonstyles.content}>
