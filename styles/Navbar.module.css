@@ -1,4 +1,4 @@
-/*Mobile view*/
+/**************Mobile view**********/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -6,8 +6,17 @@
   margin: 0px;
   align-items: center;
   z-index: 1;
+  outline: red 3px solid;
 }
 
+/*Hide tablet and desktop nav*/
+.isTablet {
+  visibility: hidden;
+  position: absolute;
+ 
+}
+
+/**************Tablet view**********/
 @media only screen and (min-width: 768px) {
   .navbar {
     display: flex;
@@ -16,9 +25,27 @@
     margin: 0px;
     align-items: center;
     z-index: 1;
+    font-family: "Barlow Condensed", sans-serif;
   }
 
   .isMobile {
     visibility: hidden;
+  }
+
+  .isTablet {
+    visibility: visible;
+    position: relative;
+  }
+
+  .bigNav {
+    display: flex;
+    justify-content: space-around;
+    outline: solid 2px red;
+    background-color: rgb(32, 32, 32);
+    color: white;
+  }
+
+  .bigNavItem {
+    padding: 35px;
   }
 }
