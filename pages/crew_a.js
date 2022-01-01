@@ -33,18 +33,15 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className={commonstyles.dest_line}> </div>
+          <div className={styles.line}> </div>
+          <div className={styles.small_font1}>Commander</div>
+          <div className={styles.small_font2}> Douglas Hurley</div>
+
           <div className={commonstyles.description}>
             Douglas Gerald Hurley is an American engineer, former Marine Corps
             pilot and former NASA astronaut. He launched into space for the
             third time as commander of Crew Dragon Demo-2.
           </div>
-          <div className={commonstyles.dest_line}> </div>
-
-          <div className={commonstyles.title1}>Avg. distance</div>
-          <div className={styles.small_font}>384,400 km </div>
-          <div className={commonstyles.title1}>Est. travel time</div>
-          <div className={styles.small_font}>3 days</div>
         </div>
       </main>
       <TempNavBar />
