@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import commonstyles from "../styles/Common.module.css";
-import styles from "../styles/Crew.module.css";
+import styles from "../styles/Technology.module.css";
 
 import BackgroundImgMobileMain from "../assets/technology/background-technology-mobile.jpg";
 import TechnologyImage from "../assets/technology/image-launch-vehicle-landscape.jpg";
@@ -22,11 +22,10 @@ export default function Home() {
 
         <NavBar />
         <div className={commonstyles.content}>
-          <div className={commonstyles.title1}>02 Meet your crew</div>
-          <div className={styles.img}>
-            <div className={styles.imgWrapper}>
-              <Image src={TechnologyImage} alt="image of Technologya" />
-            </div>
+          <div className={commonstyles.title1}> 03 Space launch 101</div>
+
+          <div className={styles.imgWrapper}>
+            <Image src={TechnologyImage} alt="image of Technology" />
           </div>
 
           <div className={styles.dest_menu}>

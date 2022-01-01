@@ -9,7 +9,9 @@ function navbar() {
     <>
       <div className={styles.navbar}>
         <Image src={Logo} alt="Logo" />
-        <Image src={Hamburger} alt="Hamburger" />
+        <div className={styles.isMobile}>
+          <Image src={Hamburger} alt="Hamburger" />
+        </div>
       </div>
     </>
   );
