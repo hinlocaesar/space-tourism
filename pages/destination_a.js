@@ -49,7 +49,7 @@ export default function Home() {
             <div className={styles.dest_menu_item}>TITAN</div>
           </div>
           <div className={styles.big_font}>MOON</div>
-          <div className={commonstyles.description}>
+          <div className={styles.description}>
             See our planet as you’ve never seen it before. A perfect relaxing
             trip away to help regain perspective and come back refreshed. While
             you’re there, take in some history by visiting the Luna 2 and Apollo
@@ -57,10 +57,16 @@ export default function Home() {
           </div>
           <div className={commonstyles.dest_line}> </div>
 
-          <div className={commonstyles.title1}>Avg. distance</div>
-          <div className={styles.small_font}>384,400 km </div>
-          <div className={commonstyles.title1}>Est. travel time</div>
-          <div className={styles.small_font}>3 days</div>
+          <div className={styles.details_containerMain}>
+            <div className={styles.details_containerA}>
+              <div className={commonstyles.title1}>Avg. distance</div>
+              <div className={styles.small_font}>384,400 km </div>
+            </div>
+            <div className={styles.details_containerA}>
+              <div className={commonstyles.title1}>Est. travel time</div>
+              <div className={styles.small_font}>3 days</div>
+            </div>
+          </div>
         </div>
       </main>
       <TempNavBar />

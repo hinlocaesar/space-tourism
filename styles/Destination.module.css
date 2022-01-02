@@ -37,6 +37,18 @@
   visibility: hidden;
   position: absolute;
 }
+
+.description {
+  font-family: "Barlow", sans-serif;
+  font-size: 0.9375em;
+  text-align: center;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 2.188rem;
+  line-height: 1.6;
+  width: 85%;
+}
+
 /*This is the trick to select the img properties from nextjt work around*/
 @media only screen and (min-width: 768px) {
   .applyBgSwitchMobile {
@@ -47,5 +59,39 @@
   .applyBgSwitchTablet {
     visibility: visible;
     position: relative;
+  }
+
+  .dest_menu {
+    padding-top: 2rem;
+  }
+
+  .big_font {
+    font-size: 4em;
+    padding-top: 1rem;
+  }
+
+  .description {
+    font-family: "Barlow", sans-serif;
+    font-size: 0.9375em;
+    text-align: center;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 2.188rem;
+    line-height: 1.6;
+    width: 70%;
+  }
+
+  .details_containerMain {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .details_containerA {
+    width: 50%;
+    text-align: center;
+  }
+
+  .dest_menu_item {
+    font-size: large;
   }
 }
