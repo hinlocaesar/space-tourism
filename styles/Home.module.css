@@ -12,11 +12,21 @@
   letter-spacing: 0.125rem;
   margin-bottom: 2.813rem;
 }
-/*This is the trick to select the img properties from nextjt work around*/
+
 .applyBgSwitchMobile {
-  visibility: hidden;
+  visibility: visible;
 }
 
 .applyBgSwitchTablet {
-  visibility: visible;
+  visibility: hidden;
+}
+/*This is the trick to select the img properties from nextjt work around*/
+@media only screen and (min-width: 768px) {
+  .applyBgSwitchMobile {
+    visibility: hidden;
+  }
+
+  .applyBgSwitchTablet {
+    visibility: visible;
+  }
 }

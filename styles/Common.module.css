@@ -37,4 +37,16 @@
   padding-right: 1.25rem;
   padding-top: 2.188rem;
   line-height: 1.6;
+  width: 85%;
+}
+
+/*Apply Designs Tablet*/
+@media only screen and (min-width: 768px) {
+  .description {
+    width: 50%;
+  }
+
+  .title2 {
+    font-size: 7em;
+  }
 }
