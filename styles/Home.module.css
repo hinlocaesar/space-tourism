@@ -13,10 +13,10 @@
   margin-bottom: 2.813rem;
 }
 /*This is the trick to select the img properties from nextjt work around*/
-.applyBgSwitchMobile > div {
-  visibility: false;
+.applyBgSwitchMobile {
+  visibility: hidden;
 }
 
-.applyBgSwitchTablet > div {
-  visibility: false;
+.applyBgSwitchTablet {
+  visibility: visible;
 }

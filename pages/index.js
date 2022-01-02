@@ -4,7 +4,7 @@ import commonstyles from "../styles/Common.module.css";
 import styles from "../styles/Home.module.css";
 
 import BackgroundImgMobileMain from "../assets/home/background-home-mobile.jpg";
-import BackgroundImgMobileTablet from "../assets/destination/image-titan.png";
+import BackgroundImgMobileTablet from "../assets/home/background-home-tablet.jpg";
 import NavBar from "../components/navbar";
 import TempNavBar from "../components/tempnavbar";
 
@@ -19,9 +19,17 @@ export default function Home() {
       <main>
         <div className={styles.applyBgSwitchMobile}>
           <Image
-            className={styles.applyBgSwitchMobile}
             src={BackgroundImgMobileMain}
-            alt="Picture of the author"
+            alt="background image for mobile"
+            layout="fill"
+            objectFit="cover"
+            quality={100}
+          />
+        </div>
+        <div className={styles.applyBgSwitchTablet}>
+          <Image
+            src={BackgroundImgMobileTablet}
+            alt="background image for mobile"
             layout="fill"
             objectFit="cover"
             quality={100}
