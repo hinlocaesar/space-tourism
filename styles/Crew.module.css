@@ -16,6 +16,7 @@
   font-size: 1em;
   padding-top: 1.5rem;
   text-transform: uppercase;
+  color: grey;
 }
 
 .small_font2 {
@@ -89,5 +90,15 @@
     width: 20%;
     padding-top: 1rem;
     visibility: visible;
+  }
+
+  .small_font1 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }
+
+  .small_font2 {
+    font-size: 2em;
+    text-transform: uppercase;
   }
 }
