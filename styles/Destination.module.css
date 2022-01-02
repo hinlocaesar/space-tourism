@@ -28,3 +28,24 @@
 .img {
   padding-top: 2.188rem;
 }
+
+.applyBgSwitchMobile {
+  visibility: visible;
+}
+
+.applyBgSwitchTablet {
+  visibility: hidden;
+  position: absolute;
+}
+/*This is the trick to select the img properties from nextjt work around*/
+@media only screen and (min-width: 768px) {
+  .applyBgSwitchMobile {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .applyBgSwitchTablet {
+    visibility: visible;
+    position: relative;
+  }
+}

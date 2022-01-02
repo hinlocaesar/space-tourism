@@ -24,12 +24,23 @@ export default function Home() {
         <div className={commonstyles.content}>
           <div className={commonstyles.title1}>01 PICK YOUR DESTINATION</div>
           <div className={styles.img}>
-            <Image
-              src={MoonImage}
-              width={170}
-              height={170}
-              alt="image of the moon"
-            />
+            <div className={styles.applyBgSwitchMobile}>
+              <Image
+                src={MoonImage}
+                width={170}
+                height={170}
+                alt="image of the moon"
+              />
+            </div>
+
+            <div className={styles.applyBgSwitchTablet}>
+              <Image
+                src={MoonImage}
+                width={300}
+                height={300}
+                alt="image of the moon"
+              />
+            </div>
           </div>
           <div className={styles.dest_menu}>
             <div className={styles.dest_menu_item}>MOON</div>
