@@ -29,7 +29,6 @@
   font-family: "Barlow Condensed", sans-serif;
   display: flex;
   justify-content: space-between;
-
   width: 20%;
   padding-top: 1rem;
 }
@@ -43,4 +42,52 @@
 
 .dest_menu_item:first-child {
   background: white;
+}
+
+.dest_menu1 {
+  font-family: "Barlow Condensed", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  padding-top: 1rem;
+  visibility: hidden;
+}
+
+.applyBgSwitchMobileImage {
+  visibility: visible;
+}
+
+.applyBgSwitchTabletImage {
+  visibility: hidden;
+  position: absolute;
+}
+
+@media only screen and (min-width: 768px) {
+  .applyBgSwitchMobileImage {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .applyBgSwitchTabletImage {
+    visibility: visible;
+    position: relative;
+  }
+
+  .dest_menu {
+    font-family: "Barlow Condensed", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    padding-top: 1rem;
+    visibility: hidden;
+  }
+
+  .dest_menu1 {
+    font-family: "Barlow Condensed", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    padding-top: 1rem;
+    visibility: visible;
+  }
 }
