@@ -4,6 +4,7 @@ import commonstyles from "../styles/Common.module.css";
 import styles from "../styles/Destination.module.css";
 
 import BackgroundImgMobileMain from "../assets/destination/background-destination-mobile.jpg";
+import BackgroundImgTablet from "../assets/destination/background-destination-tablet.jpg";
 import MoonImage from "../assets/destination/image-moon.png";
 import NavBar from "../components/navbar";
 import TempNavBar from "../components/tempnavbar";
@@ -12,19 +13,31 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main>
-        <Image
-          src={BackgroundImgMobileMain}
-          alt="Picture of the author"
-          layout="fill"
-          objectFit="cover"
-          quality={100}
-        />
+        <div className={styles.applyBgSwitchMobileBG}>
+          <Image
+            src={BackgroundImgMobileMain}
+            alt="Picture of the author"
+            layout="fill"
+            objectFit="cover"
+            quality={100}
+          />
+        </div>
+
+        <div className={styles.applyBgSwitchTabletBG}>
+          <Image
+            src={BackgroundImgTablet}
+            alt="Picture of the author"
+            layout="fill"
+            objectFit="cover"
+            quality={100}
+          />
+        </div>
 
         <NavBar />
         <div className={commonstyles.content}>
           <div className={commonstyles.title1}>01 PICK YOUR DESTINATION</div>
           <div className={styles.img}>
-            <div className={styles.applyBgSwitchMobile}>
+            <div className={styles.applyBgSwitchMobileImage}>
               <Image
                 src={MoonImage}
                 width={170}
@@ -33,7 +46,7 @@ export default function Home() {
               />
             </div>
 
-            <div className={styles.applyBgSwitchTablet}>
+            <div className={styles.applyBgSwitchTabletImage}>
               <Image
                 src={MoonImage}
                 width={300}

@@ -29,15 +29,6 @@
   padding-top: 2.188rem;
 }
 
-.applyBgSwitchMobile {
-  visibility: visible;
-}
-
-.applyBgSwitchTablet {
-  visibility: hidden;
-  position: absolute;
-}
-
 .description {
   font-family: "Barlow", sans-serif;
   font-size: 0.9375em;
@@ -49,14 +40,39 @@
   width: 85%;
 }
 
+.applyBgSwitchMobileImage {
+  visibility: visible;
+}
+
+.applyBgSwitchTabletImage {
+  visibility: hidden;
+  position: absolute;
+}
+
+.applyBgSwitchMobileBG {
+  visibility: visible;
+}
+
+.applyBgSwitchTabletBG {
+  visibility: hidden;
+}
+
 /*This is the trick to select the img properties from nextjt work around*/
 @media only screen and (min-width: 768px) {
-  .applyBgSwitchMobile {
+  .applyBgSwitchMobileBG {
+    visibility: hidden;
+  }
+
+  .applyBgSwitchTabletBG {
+    visibility: visible;
+  }
+
+  .applyBgSwitchMobileImage {
     visibility: hidden;
     position: absolute;
   }
 
-  .applyBgSwitchTablet {
+  .applyBgSwitchTabletImage {
     visibility: visible;
     position: relative;
   }
